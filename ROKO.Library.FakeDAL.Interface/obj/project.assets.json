@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ROKO.Library.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ROKO.Library.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ROKO.Library.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ROKO.Library.Entities/1.0.0": {
+      "type": "project",
+      "path": "../ROKO.Library.Entities/ROKO.Library.Entities.csproj",
+      "msbuildProject": "../ROKO.Library.Entities/ROKO.Library.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ROKO.Library.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ROKO000000160\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ROKO000000160\\Source\\Repos\\ROKO.Library\\ROKO.Library.FakeDAL.Interface\\ROKO.Library.FakeDAL.Interface.csproj",
+      "projectName": "ROKO.Library.FakeDAL.Interface",
+      "projectPath": "C:\\Users\\ROKO000000160\\Source\\Repos\\ROKO.Library\\ROKO.Library.FakeDAL.Interface\\ROKO.Library.FakeDAL.Interface.csproj",
+      "packagesPath": "C:\\Users\\ROKO000000160\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ROKO000000160\\Source\\Repos\\ROKO.Library\\ROKO.Library.FakeDAL.Interface\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ROKO000000160\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\ROKO000000160\\Source\\Repos\\ROKO.Library\\ROKO.Library.Entities\\ROKO.Library.Entities.csproj": {
+              "projectPath": "C:\\Users\\ROKO000000160\\Source\\Repos\\ROKO.Library\\ROKO.Library.Entities\\ROKO.Library.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

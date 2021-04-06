@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ROKO.Library.Entities\ROKO.Library.Entities.csproj" />
+    <ProjectReference Include="..\ROKO.Library.FakeDAL.Interface\ROKO.Library.FakeDAL.Interface.csproj" />
+    <ProjectReference Include="..\ROKO.Library.FakeDAL\ROKO.Library.FakeDAL.csproj" />
+  </ItemGroup>
+
+</Project>
